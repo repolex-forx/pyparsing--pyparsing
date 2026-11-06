@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/pyparsing/pyparsing/commit/810199f89bf916590426e1c5cb3d612584f11a2f",
       "git:hexsha": "810199f89bf916590426e1c5cb3d612584f11a2f",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T02:30:23.902007+00:00"
     },
     {
       "@id": "https://repolex.ai/r/pyparsing/pyparsing/commit/d5aafc39a37f213971ba2b76ae7101ff3345b209",
