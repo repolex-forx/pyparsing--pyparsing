@@ -1,0 +1,11 @@
+{
+  "org": "pyparsing",
+  "repo": "pyparsing",
+  "versions": [
+    {
+      "commit": "810199f89bf916590426e1c5cb3d612584f11a2f",
+      "tag": "",
+      "parsed_at": "2026-11-06T02:30:23.902771+00:00"
+    }
+  ]
+}
