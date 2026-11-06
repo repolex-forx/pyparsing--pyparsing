@@ -1,0 +1,7 @@
+[2026-11-06T02:26:35Z] === AST ITERATION 1 START | repo=pyparsing/pyparsing sha=810199f8 ===
+[2026-11-06T02:26:35Z] [iter=1] PHASE START: ast repo=pyparsing/pyparsing sha=810199f8
+[2026-11-06T02:26:35Z] [iter=1] Building AST aggregate chunks
+[2026-11-06T02:28:56Z] [iter=1] AST chunks built count=1 triples=1727311
+[2026-11-06T02:28:56Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/810199f89bf916590426e1c5cb3d612584f11a2f/.complete
+[2026-11-06T02:28:56Z] [iter=1] PHASE END: ast elapsed_s=140 elapsed_min=2.3
+[2026-11-06T02:28:56Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
