@@ -3,6 +3,11 @@
   "repo": "pyparsing",
   "versions": [
     {
+      "commit": "7d4bda2743ebc04f68d2594bc4fffc70cd65848f",
+      "tag": "pyparsing_3.1.2",
+      "parsed_at": "2026-11-22T04:46:17.258707+00:00"
+    },
+    {
       "commit": "810199f89bf916590426e1c5cb3d612584f11a2f",
       "tag": "",
       "parsed_at": "2026-11-06T02:30:23.902771+00:00"
