@@ -666,7 +666,9 @@
           "githubUrl": "https://github.com/pallets/jinja",
           "source": "build_file:pyproject.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/7d4bda2743ebc04f68d2594bc4fffc70cd65848f/chunk-001.nq.gz",
+      "dep": "dep/7d4bda2743ebc04f68d2594bc4fffc70cd65848f.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
