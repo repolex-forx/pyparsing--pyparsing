@@ -643,6 +643,29 @@
       ],
       "ast": [
         "aggregate/ast/7d4bda2743ebc04f68d2594bc4fffc70cd65848f/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/7d4bda2743ebc04f68d2594bc4fffc70cd65848f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "railroad-diagrams",
+          "ecosystem": "PYPI",
+          "version": "3.0.1",
+          "githubOrg": "tabatkins",
+          "githubRepo": "railroad-diagrams",
+          "githubUrl": "https://github.com/tabatkins/railroad-diagrams",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "jinja2",
+          "ecosystem": "PYPI",
+          "version": "3.1.6",
+          "githubOrg": "pallets",
+          "githubRepo": "jinja",
+          "githubCommit": "15206881c006c79667fe5154fe80c01c65410679",
+          "githubTag": "3.1.6",
+          "githubUrl": "https://github.com/pallets/jinja",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],

@@ -1,0 +1,62 @@
+[2026-11-22T02:54:30Z] === ENRICH ITERATION 1 START | repo=pyparsing/pyparsing sha=7d4bda27 ===
+[2026-11-22T02:54:30Z] [iter=1] PHASE START: enrich repo=pyparsing/pyparsing sha=7d4bda27 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7d4bda27-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7d4bda2743ebc04f68d2594bc4fffc70cd65848f.nq.gz
+[2026-11-22T02:54:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T02:54:43Z] [iter=1] AST store loaded triples=1376039 load_secs=10 mem_mb=843 MB
+[2026-11-22T02:54:43Z] [iter=1] Step 2: Finding LSP targets mem_mb=843 MB
+[2026-11-22T02:54:47Z] [iter=1] LSP targets found call_sites=12316 imports=268 extends=201 implements=0 secs=4
+[2026-11-22T02:54:50Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=843 MB
+[2026-11-22T02:54:59Z] [iter=1] Position index built positions=93035 nodes_with_types=123037 secs=9 mem_mb=843 MB
+[2026-11-22T02:54:59Z] [iter=1] Step 3: Starting LSP resolution mem_mb=843 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T02:54:59Z] [iter=1] Resolving target type target_type=call_site count=12316
+[2026-11-22T02:55:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=tests/test_unit.py
+[2026-11-22T03:23:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.4 files_done=1 resolved=4697 errors=0 current=pyparsing/util.py
+[2026-11-22T03:25:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.5 files_done=4 resolved=4922 errors=0 current=examples/pgn.py
+[2026-11-22T03:25:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.1 files_done=6 resolved=5000 errors=0 current=examples/booleansearchparser.py
+[2026-11-22T03:26:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.7 files_done=7 resolved=5118 errors=0 current=pyparsing/helpers.py
+[2026-11-22T03:28:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.9 files_done=8 resolved=5419 errors=0 current=pyparsing/core.py
+[2026-11-22T03:34:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.5 files_done=9 resolved=6607 errors=0 current=examples/jsonParser.py
+[2026-11-22T03:36:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.8 files_done=11 resolved=6898 errors=0 current=examples/ebnftest.py
+[2026-11-22T03:37:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.1 files_done=14 resolved=7131 errors=0 current=examples/verilog_parse.py
+[2026-11-22T03:40:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.8 files_done=15 resolved=7461 errors=0 current=examples/shapes.py
+[2026-11-22T03:42:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.0 files_done=18 resolved=7777 errors=0 current=examples/statemachine/trafficLightDemo.py
+[2026-11-22T03:43:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.6 files_done=20 resolved=7866 errors=0 current=examples/html_table_parser.py
+[2026-11-22T03:44:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.5 files_done=22 resolved=7986 errors=0 current=examples/include_preprocessor.py
+[2026-11-22T03:46:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.2 files_done=25 resolved=8316 errors=0 current=examples/TAP.py
+[2026-11-22T03:47:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.8 files_done=27 resolved=8423 errors=0 current=examples/pythonGrammarParser.py
+[2026-11-22T03:48:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.4 files_done=30 resolved=8623 errors=0 current=examples/lucene_grammar.py
+[2026-11-22T03:49:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.5 files_done=32 resolved=8779 errors=0 current=examples/protobuf_parser.py
+[2026-11-22T03:50:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.2 files_done=35 resolved=8892 errors=0 current=pyparsing/diagram/__init__.py
+[2026-11-22T03:51:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.8 files_done=36 resolved=9007 errors=0 current=examples/test_bibparse.py
+[2026-11-22T03:52:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=57.6 files_done=37 resolved=9140 errors=0 current=examples/select_parser.py
+[2026-11-22T03:53:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.6 files_done=38 resolved=9264 errors=0 current=examples/idlParse.py
+[2026-11-22T03:53:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.1 files_done=40 resolved=9349 errors=0 current=tests/test_examples.py
+[2026-11-22T03:54:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.1 files_done=42 resolved=9479 errors=0 current=examples/simpleSQL.py
+[2026-11-22T03:55:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.1 files_done=45 resolved=9685 errors=0 current=examples/greetingInKorean.py
+[2026-11-22T03:56:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.7 files_done=48 resolved=9825 errors=0 current=examples/number_words.py
+[2026-11-22T03:56:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.3 files_done=50 resolved=9894 errors=0 current=examples/left_recursion.py
+[2026-11-22T03:57:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.8 files_done=53 resolved=9974 errors=0 current=examples/datetime_parse_actions.py
+[2026-11-22T03:58:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=63.8 files_done=56 resolved=10119 errors=0 current=examples/html_stripper.py
+[2026-11-22T03:58:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=64.4 files_done=58 resolved=10193 errors=0 current=examples/statemachine/vending_machine.py
+[2026-11-22T03:59:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.0 files_done=63 resolved=10331 errors=0 current=examples/LAparser.py
+[2026-11-22T04:00:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.9 files_done=64 resolved=10467 errors=0 current=examples/range_check.py
+[2026-11-22T04:00:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.4 files_done=66 resolved=10537 errors=0 current=examples/partial_gene_match.py
+[2026-11-22T04:01:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.2 files_done=69 resolved=10638 errors=0 current=examples/excel_expr.py
+[2026-11-22T04:02:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.8 files_done=71 resolved=10705 errors=0 current=examples/gen_ctypes.py
+[2026-11-22T04:03:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.6 files_done=73 resolved=10830 errors=0 current=examples/urlExtractorNew.py
+[2026-11-22T04:03:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.2 files_done=76 resolved=10938 errors=0 current=examples/one_to_ninety_nine.py
+[2026-11-22T04:04:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.0 files_done=78 resolved=11029 errors=0 current=examples/bf.py
+[2026-11-22T04:05:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.6 files_done=82 resolved=11135 errors=0 current=examples/indented_block_example.py
+[2026-11-22T04:05:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.2 files_done=87 resolved=11248 errors=0 current=examples/lua_parser.py
+[2026-11-22T04:06:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.7 files_done=91 resolved=11317 errors=0 current=pyparsing/testing.py
+[2026-11-22T04:06:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.3 files_done=95 resolved=11448 errors=0 current=pyparsing/actions.py
+[2026-11-22T04:07:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.8 files_done=102 resolved=11532 errors=0 current=examples/statemachine/video_demo.py
+[2026-11-22T04:07:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.5 files_done=107 resolved=11649 errors=0 current=examples/cpp_enum_parser.py
+[2026-11-22T04:08:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.0 files_done=116 resolved=11726 errors=0 current=examples/simpleWiki.py
+[2026-11-22T04:08:45Z] [iter=1] Target type resolved target_type=call_site resolved=11766 errors=0 secs=4426 mem_mb=843 MB
+[2026-11-22T04:08:45Z] [iter=1] Resolving target type target_type=import_statement count=268
+[2026-11-22T04:08:51Z] [iter=1] Target type resolved target_type=import_statement resolved=261 errors=0 secs=6 mem_mb=843 MB
+[2026-11-22T04:08:51Z] [iter=1] Resolving target type target_type=extends_clause count=201
+[2026-11-22T04:08:55Z] [iter=1] Target type resolved target_type=extends_clause resolved=200 errors=0 secs=4 mem_mb=843 MB
+[2026-11-22T04:43:51Z] [iter=1] Step 5: Writing final enrichment file triples=144888
+[2026-11-22T04:43:53Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7d4bda2743ebc04f68d2594bc4fffc70cd65848f.nq.gz size_kb=3121
+[2026-11-22T04:43:53Z] [iter=1] PHASE END: enrich elapsed_s=6562 elapsed_min=109.4 total_triples=144888
